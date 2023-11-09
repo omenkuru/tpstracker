@@ -16,9 +16,9 @@ return new class extends Migration
             $table->string('nama');
             $table->string('gender');
             $table->integer('usia');
-            $table->integer('rt');
-            $table->integer('rw');
-            $table->integer('tps');
+            $table->string('rt');
+            $table->string('rw');
+            $table->string('tps');
             $table->string('kelurahan')->default('PASIRKALIKI');
             $table->string('kecamatan')->default('CIMAHI UTARA');
             $table->string('ket')->nullable();
