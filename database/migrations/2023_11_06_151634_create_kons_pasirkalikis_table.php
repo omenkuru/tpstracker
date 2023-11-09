@@ -13,9 +13,9 @@ return new class extends Migration
     {
         Schema::create('kons_pasirkalikis', function (Blueprint $table) {
             $table->id();
-            $table->integer('tps')->nullable();
-            $table->integer('rt')->nullable();
-            $table->integer('rw')->nullable();
+            $table->string('tps')->nullable();
+            $table->string('rt')->nullable();
+            $table->string('rw')->nullable();
             $table->string('koordinator')->nullable();
             $table->string('konstituen')->nullable();
             $table->string('phone')->nullable();
